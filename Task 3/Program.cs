@@ -9,5 +9,6 @@ number = Math.Abs(number);
 Console.WriteLine("Целые числа в промежутке от -{0} до {0}:", number);
 
 for (int i=-number; i<number; i++){
-    Console.Write(i + ",");
+    Console.Write(i + ", ");
 }
+Console.Write(number);
